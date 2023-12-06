@@ -8,9 +8,9 @@ editor: visual
 
 ![](IMG_3149.JPG){fig-alt="Image of Madison Paulus"}
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Hello! My name is Madison Paulus and I am a student at George Washington University (GWU) studying International Affairs and Journalism and Mass Communication. I have extensive background in childcare which I attribute my strong communication skills to. Additionally, I have experience with science communication through my work with Planet Forward and GWU's Climate Health Institute. Beyond school and work, my passions include advocacy, mental health, anti-racism, and climate change.
 
-## Running Code
+## Running Code 
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
