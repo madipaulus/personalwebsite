@@ -18,6 +18,10 @@ University email: mgpaulus\@gwu.edu
 
 Personal email: madi.paulus\@gmail.com
 
+### Site Pages
+
+[Interactive County Census Analysis and Map Visualization](https://madipaulus.github.io/personalwebsite/interactive_county_census_analysis_and_map_visualization.html)
+
 ### 
 
 ```{r}
