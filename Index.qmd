@@ -10,9 +10,15 @@ editor: visual
 
 Hello! My name is Madison Paulus and I am a student at George Washington University (GWU) studying International Affairs and Journalism and Mass Communication. I have extensive background in childcare which I attribute my strong communication skills to. Additionally, I have experience with science communication through my work with Planet Forward and GWU's Climate Health Institute. Beyond school and work, my passions include advocacy, mental health, anti-racism, and climate change.
 
-## Running Code 
+Here is my [resume](personalwebsite/Madison Paulus Resume.pdf at main · madipaulus/personalwebsite (github.com)). Feel free to reach out with any questions or opportunities.
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+### Contact Information
+
+University email: mgpaulus\@gwu.edu
+
+Personal email: madi.paulus\@gmail.com
+
+### 
 
 ```{r}
 1 + 1
