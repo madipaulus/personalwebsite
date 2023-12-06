@@ -22,6 +22,8 @@ Personal email: madi.paulus\@gmail.com
 
 [Interactive County Census Analysis and Map Visualization](https://madipaulus.github.io/personalwebsite/interactive_county_census_analysis_and_map_visualization.html)
 
+[Academic Writing Sample](https://madipaulus.github.io/personalwebsite/academic_writing_sample.html)
+
 ### 
 
 ```{r}
