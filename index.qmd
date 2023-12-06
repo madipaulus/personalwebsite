@@ -24,6 +24,8 @@ Personal email: madi.paulus\@gmail.com
 
 [Academic Writing Sample](https://madipaulus.github.io/personalwebsite/academic_writing_sample.html)
 
+[News Writing Sample](https://madipaulus.github.io/personalwebsite/news_writing_sample.html)
+
 ### 
 
 ```{r}
