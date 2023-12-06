@@ -8,7 +8,7 @@ editor: visual
 
 ![](IMG_3149.JPG){fig-alt="Image of Madison Paulus"}
 
-Hello! My name is Madison Paulus and I am a student at George Washington University (GWU) studying International Affairs and Journalism and Mass Communication. I have extensive background in childcare which I attribute my strong communication skills to. Additionally, I have experience with science communication through my work with Planet Forward and GWU's Climate Health Institute. Beyond school and work, my passions include advocacy, mental health, anti-racism, and climate change.
+Hello! My name is Madison Paulus and I am a student at George Washington University (GWU) studying International Affairs and Journalism & Mass Communication. I have extensive background in childcare which I attribute my strong communication skills to. Additionally, I have experience with science communication through my work with Planet Forward and GWU's Climate Health Institute. Beyond school and work, my passions include advocacy, mental health, anti-racism, and climate change.
 
 Here is my [resume](https://github.com/madipaulus/personalwebsite/blob/2282534c56fa5e6aa09cd1ad4368d399440828ff/Madison%20Paulus%20Resume.pdf) and [github page](https://github.com/madipaulus). Feel free to reach out with any questions or opportunities.
 
