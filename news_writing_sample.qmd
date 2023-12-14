@@ -1,5 +1,5 @@
 ---
-title: "news_writing_sample"
+title: "News Writing Sample"
 format: html
 editor: visual
 ---
