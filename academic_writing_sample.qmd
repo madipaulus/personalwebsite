@@ -4,7 +4,9 @@ format: html
 editor: visual
 ---
 
-## International Organizations Final Research Paper: Illicit Arms Trafficking and Gun Violence
+Below is the text of a final research paper I wrote for my International Organizations course at George Washington University. For my research topic, I decided to delve into the inter-related issues of illicit arms trafficking and gun violence. After a brief overview of the topic, I go into the causes of these issues, and key actors including governments, buyers and sellers. After that, I describe agendas and initiatives of international organizations such as the United Nations, European Union, the Organization of American States, and the Organization of African Unity. I conclude with potential solutions such as International Firearm Microstamping (IFM) technology.
+
+# International Organizations Final Research Paper: Illicit Arms Trafficking and Gun Violence
 
 The illicit trade of small arms and subsequent gun violence is a prominent issue globally, occurring both as a consequence and cause of social, economic and political issues. The gravity of this problem lies in the inherent violation of the human right to life due to the accessibility of guns through illegal markets, given that gun-related injuries account for more than 500 deaths, and 2,000 injuries on a daily basis (Amnesty International, 2021). Although anyone can be impacted by illicit arms trafficking, the groups most significantly affected by the global presence of these guns consist of communities of color, young men, female victims of abuse, and other members of marginalized societal groups (Amnesty International, 2021). Additionally, while  44% of documented homicides across the world involve gun violence, there is a condensation of especially high rates in Latin American countries, such as El Salvador, Brazil, and Honduras (Amnesty International, 2021). 
 
