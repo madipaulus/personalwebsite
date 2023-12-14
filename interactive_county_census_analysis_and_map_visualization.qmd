@@ -1,26 +1,43 @@
 ---
 title: "Interactive County Census Analysis and Map Visualization"
 format: html
+self-contained: true
+    toc: true
+    toc-location: left
 editor: visual
 ---
 
-## Quarto
+## Introduction
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Here I will provide a walk through of an interactive county census analysis and map visualization for Washington state.
 
-## Running Code
+### Steps: 
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+These are all the packages needed for the interactive county census analysis and map visualization.
 
-```{r}
-1 + 1
+```{r}setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Turn off scientific notation
+options(scipen=999)
+
+# Load the tidyverse.
+library(tidyverse)
+library(tidycensus)
+library(leaflet.extras2)
+library(glue)
+library(mapview)
+library(tmap)
+
 ```
 
-You can add options to executable code like this
+This is the api key I used to access the census data. You can make your own on https://api.census.gov/data/key_signup.html 
+```{r echo=FALSE}
 
-```{r}
-#| echo: false
-2 * 2
+myapikey <- "fc489a837248834b523a1eab369df67966f37652"
+
+census_api_key(myapikey, overwrite=TRUE, install = TRUE)
+
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
