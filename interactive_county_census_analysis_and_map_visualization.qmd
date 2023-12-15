@@ -64,3 +64,12 @@ After we've gotten the necessary data, we will have the computer input this data
 mapview:: mapview(wa_counties_withgeo, zcol = "povertystatusE")
 ```
 
+
+Then, just to make the map easier to process and more aesthetic, you can use the code below to change the color scheme. From this map we can easily see that King County has the highest amount of impoverished people in Washington State.
+
+```{r}
+mapview:: mapview(wa_counties_withgeo, zcol = "povertystatusE", 
+         col.regions = RColorBrewer::brewer.pal(9, "Reds"), 
+         alpha.regions = 1)
+```
+
