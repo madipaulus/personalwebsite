@@ -61,7 +61,7 @@ wa_counties_withgeo
 ```
 
 
-#### After we've gotten the necessary data, we will have the computer input this data into an interactive map using the code below.
+#### After we've gotten the necessary data, we will have the positcloud input this data into an interactive map using the code below.
 
 
 ```{r}
@@ -73,7 +73,31 @@ mapview:: mapview(wa_counties_withgeo, zcol = "povertystatusE")
 
 ```{r}
 mapview:: mapview(wa_counties_withgeo, zcol = "povertystatusE", 
-         col.regions = RColorBrewer::brewer.pal(9, "Reds"), 
+         col.regions = RColorBrewer::brewer.pal(9, "Blues"), 
          alpha.regions = 1)
+```
+
+
+Now we can customize the labels on the map using the code below.
+```{r}
+mylabel <- glue::glue("{wa_counties_withgeo$NAM} {wa_counties_withgeo$medincome}")
+
+
+mapview:: mapview(wa_counties_withgeo, zcol = "povertystatusE", 
+         col.regions = RColorBrewer::brewer.pal(9, "Blues"), 
+         alpha.regions = 1,
+         label = mylabel)
+```
+
+
+We can customize the popup as well using the code below.
+
+```{r}
+mypopup <- glue::glue("<strong>{wa_counties_withgeo$NAM}</strong><br /> 
+                      Total Population: {wa_counties_withgeo$totalpop}<br />
+                      Impoverished Population: {wa_counties_withgeo$povertystatus}") 
+  lapply(htmltool,FUN = HTML)
+# mylabel <- glue::glue("{all_data$State} {all_data$PctChange10_20}%") %>%
+#   lapply(htmltools::HTML)
 ```
 
