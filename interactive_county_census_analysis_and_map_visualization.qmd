@@ -39,4 +39,4 @@ myapikey <- "fc489a837248834b523a1eab369df67966f37652"
 tidycensus::census_api_key(myapikey, overwrite=TRUE, install = TRUE)
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+
