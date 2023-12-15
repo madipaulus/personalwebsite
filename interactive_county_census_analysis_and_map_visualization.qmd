@@ -2,8 +2,8 @@
 title: "Interactive County Census Analysis and Map Visualization"
 format: html
 self-contained: true
-    toc: true
-    toc-location: left
+toc: true
+toc-location: left
 editor: visual
 ---
 
@@ -13,7 +13,7 @@ Here I will provide a walk through of an interactive county census analysis and 
 
 ### Steps: 
 
-These are all the packages needed for the interactive county census analysis and map visualization.
+#####These are all the packages needed for the interactive county census analysis and map visualization.
 
 ```{r}setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -31,7 +31,7 @@ library(tmap)
 
 ```
 
-This is the api key I used to access the census data. You can make your own on https://api.census.gov/data/key_signup.html 
+#####This is the api key I used to access the census data. You can make your own on https://api.census.gov/data/key_signup.html 
 ```{r echo=FALSE}
 
 myapikey <- "fc489a837248834b523a1eab369df67966f37652"
@@ -39,7 +39,7 @@ myapikey <- "fc489a837248834b523a1eab369df67966f37652"
 tidycensus::census_api_key(myapikey, overwrite=TRUE, install = TRUE)
 ```
 
-Then I need to identify my variables, which are the total population and the population in poverty.
+#####Then I need to identify my variables, which are the total population and the population in poverty.
 ```{r}
 myvars <- c(totalpop = "B01003_001",
             povertystatus = "B05010_001")
@@ -47,7 +47,7 @@ myvars <- c(totalpop = "B01003_001",
 
 
 
-After we identify the variables, we need to make this data for only Washington state counties using the code below.
+#####After we identify the variables, we need to make this data for only Washington state counties using the code below.
 ```{r}
 wa_counties_withgeo <- tidycensus:: get_acs(geography = "county",
                        variables = c(myvars),
@@ -57,7 +57,9 @@ wa_counties_withgeo <- tidycensus:: get_acs(geography = "county",
 
 wa_counties_withgeo
 ```
-After we've gotten the necessary data, we will have the computer input this data into an interactive map using the code below.
+
+
+#####After we've gotten the necessary data, we will have the computer input this data into an interactive map using the code below.
 
 
 ```{r}
@@ -65,7 +67,7 @@ mapview:: mapview(wa_counties_withgeo, zcol = "povertystatusE")
 ```
 
 
-Then, just to make the map easier to process and more aesthetic, you can use the code below to change the color scheme. From this map we can easily see that King County has the highest amount of impoverished people in Washington State.
+#####Then, just to make the map easier to process and more aesthetic, you can use the code below to change the color scheme. From this map we can easily see that King County has the highest amount of impoverished people in Washington State.
 
 ```{r}
 mapview:: mapview(wa_counties_withgeo, zcol = "povertystatusE", 
