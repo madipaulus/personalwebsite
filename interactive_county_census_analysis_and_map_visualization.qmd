@@ -39,4 +39,16 @@ myapikey <- "fc489a837248834b523a1eab369df67966f37652"
 tidycensus::census_api_key(myapikey, overwrite=TRUE, install = TRUE)
 ```
 
+Then I need to identify my variables, which are the total population and the population in poverty.
+```{r}
+myvars <- c(totalpop = "B01003_001",
+            povertystatus = "B05010_001")
+```
+
+
+
+
+```{r}
+
+```
 
