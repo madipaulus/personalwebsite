@@ -47,8 +47,20 @@ myvars <- c(totalpop = "B01003_001",
 
 
 
+After we identify the variables, we need to make this data for only Washington state counties using the code below.
+```{r}
+wa_counties_withgeo <- tidycensus:: get_acs(geography = "county",
+                       variables = c(myvars),
+                       state = "WA",
+                       output = "wide",
+                       geometry = TRUE)
+
+wa_counties_withgeo
+```
+After we've gotten the necessary data, we will have the computer input this data into an interactive map using the code below.
+
 
 ```{r}
-
+mapview:: mapview(wa_counties_withgeo, zcol = "povertystatusE")
 ```
 
