@@ -4,6 +4,8 @@ format: html
 editor: visual
 ---
 
+[Homepage](https://madipaulus.github.io/personalwebsite/)
+
 ## Friends General Conference Confronts Institutional Racism
 
 ### With the upcoming progress report expected in November, Quakers and committee members reflect on FGC's journey toward becoming an anti-racist organization.

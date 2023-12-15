@@ -4,6 +4,8 @@ format: html
 editor: visual
 ---
 
+[Homepage](https://madipaulus.github.io/personalwebsite/)
+
 Below is the text of a final research paper I wrote for my International Organizations course at George Washington University. For my research topic, I decided to delve into the inter-related issues of illicit arms trafficking and gun violence. After a brief overview of the topic, I go into the causes of these issues, and key actors including governments, buyers and sellers. After that, I describe agendas and initiatives of international organizations such as the United Nations, European Union, the Organization of American States, and the Organization of African Unity. I conclude with potential solutions such as International Firearm Microstamping (IFM) technology.
 
 # International Organizations Final Research Paper: Illicit Arms Trafficking and Gun Violence

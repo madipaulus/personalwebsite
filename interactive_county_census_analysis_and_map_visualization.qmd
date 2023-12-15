@@ -7,6 +7,8 @@ toc-location: left
 editor: visual
 ---
 
+[Homepage](https://madipaulus.github.io/personalwebsite/)
+
 ## Introduction
 
 Here I will provide a walk through of an interactive county census analysis and map visualization for poverty rates in Washington state by county.
