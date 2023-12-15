@@ -36,8 +36,7 @@ This is the api key I used to access the census data. You can make your own on h
 
 myapikey <- "fc489a837248834b523a1eab369df67966f37652"
 
-census_api_key(myapikey, overwrite=TRUE, install = TRUE)
-
+tidycensus::census_api_key(myapikey, overwrite=TRUE, install = TRUE)
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
